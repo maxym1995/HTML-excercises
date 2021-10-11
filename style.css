@@ -1,0 +1,76 @@
+h3 {
+  color: rgb(107, 101, 17);
+}
+
+h3:hover {
+  color: salmon;
+}
+p.pklasa {
+  font-size: 20px;
+  color: inherit;
+}
+
+p {
+  font-size: 15px;
+  color: inherit;
+}
+
+p {
+  font-size: 12px;
+  color: inherit;
+}
+
+main {
+  color: red;
+}
+ul {
+  list-style: square;
+}
+
+li {
+  text-transform: uppercase;
+  color: green;
+}
+
+.pierwszy_element_listy {
+  color: red;
+}
+.drugi_element_listy {
+  color: blueviolet;
+}
+
+#element3 {
+  color: thistle;
+}
+
+form input {
+  border: 4px solid green;
+}
+
+a[href="www.hltv.org"] {
+  color: red;
+  background: yellow;
+}
+
+a[href*="youtube"] {
+  color: green;
+  background: rgb(19, 19, 15);
+}
+
+a[href$=".pl"] {
+  color: blueviolet;
+  background: rgb(19, 19, 15);
+}
+
+a[href$=".pl"] {
+  color: blueviolet;
+  background: rgb(19, 19, 15);
+}
+
+a:hover {
+  background-color: salmon;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: silver;
+}
