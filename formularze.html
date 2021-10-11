@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularze</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Podaj imię</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Wpisz swoje imie"
+        required
+      />
+      <label for="email">Podaj email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Wpisz email"
+        required
+      />
+      <label for="password">Podaj haslo</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <label for="age">Ile masz lat</label><br />
+      <label for="opcja_1">20-25</label>
+      <input type="radio" name="age" id="opcja_1" value="20-25" /><br />
+      <label for="opcja_2">26-30</label>
+      <input type="radio" name="age" id="opcja_2" value="26-30" /><br />
+      <label for="opcja_3">31-35</label>
+      <input type="radio" name="age" id="opcja_3" value="31-35" /><br />
+      <label for="color">Jakiego koloru masz fure?</label>
+      <select name="color" id="color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="white">white</option></select
+      ><br />
+      <label for="letter">Wpisz komentarz</label>
+      <textarea
+        name="letter"
+        id="letter"
+        cols="30"
+        rows="10"
+        placeholder="miejsce na twoj komentarz
+      "
+      ></textarea>
+
+      <input type="submit" value="WYSLIJ" />
+      <!-- ssh test-->
+    </form>
+  </body>
+</html>
